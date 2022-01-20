@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Student Portal</title>
-  <link rel="shortcut icon" href="./images/logo_title_bar.png">
   <link rel="stylesheet" href="./css/homepage.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +20,6 @@
 </head>
 
 <body>
-
   <div id="loader">
     <div id="loading-content"></div>
   </div>
@@ -31,12 +29,13 @@
     <header>
       <div class="main-name">
         <img class="logo" src="./images/logo.png" alt="">
-        <h1 class="heading">STUDENT PORTAL</h1>
+        <h1 class="heading"><marquee>Online File Convertor</marquee></h1>
       </div>
+      
     </header>
 
     <main data-aos="fade-left">
-      <div class="tools-heading">
+      <div class="tools-heading" id="tools-heading">
         <h2>Tools<span class="toolsicon">⚙️</span></h2>
       </div>
       <div class="tools-items">
@@ -62,17 +61,17 @@
         </div>
       </div>
     <div data-aos="fade-right">
+
+      
       <div class="tools-heading about-section" id="about-section">
         <h2>About 📑</h2>
       </div>
       <div class="about-content">
         This is easy-to-use, user-friendly interactive webapp includes all tools that might help students and professionals
-        in urgencies, like convertors for text files, documents and images to pdf, extracting .zip files. <br> Now get
+        in urgencies, like convertors for text files, documents and images to pdf, extracting .zip files. <br/><br/> Now get
         your work done in few minutes without investing time on any third-party applications. The need to navigate to
         several sites is over! Come to Student-Portal, choose your action tool, drop your file, get the work done,
-        download the same. And it's done. Yeah! It's that simple. <br>
-        Hope you liked our work. In case of any queries, feel free to drop us a <a href="#"
-          style="text-decoration: underline; color: aliceblue;">mail</a>.
+        download the same. And it's done. Yeah! It's that simple.
 
       </div>
     </div>
@@ -80,41 +79,15 @@
     <footer>
 
       <div>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/Akash-Lad"><i class="fab fa-github"></i></a>
       </div>
       <br>
-      <p>This is a Open Source Project on GitHub. <br> Please help us to <a
-          href="https://github.com/shivshankar9/Student-portal">Improve this</a>.</p> <br> <br>
-      <div class="author">Student-Portal@copyright2022</div>
+      <p>This is a Open Source Project on GitHub. <br> Please help us to <a href="https://github.com/Akash-Lad/Go-Tools">Improve this</a>.</p> <br> <br>
     </footer>
 
     <!-- Javascript  -->
     <script src="./js/script.js"></script>
 
-    <!-- chatbot implementation-->
-    <span>
-      <section id="section_chatbot">
-        <a class="float" id="float">
-          <img src="./images/chatbot.png" id="roboImg">
-        </a>
-        <!-- <div class="popup" style="width:500px;height:500px;"> -->
-        <div class="popup" id="popup">
-          <div class="textarea">
-            <div class="roboside">
-              <img src="./images/logo.png" class="avatar" alt="">
-              <span class="robomsg">Hello! Are you a new Student?</span>
-              <button class="crossbtn" onclick="hide()">X</button>
-            </div>
-          </div>
-          <div class="input-area">
-            <input type="text" id="msg" placeholder="Yes or No">
-            <button type="submit" class="submit">Send</button>
-          </div>
-        </div>
-      </section>
-    </span>
 
     <!-- Scripts for Chatbot -->
     <script src="./js/popup_chatbot.js"></script>

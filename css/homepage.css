@@ -3,10 +3,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  background-color: #252525;
+  background-color: #3f7b44;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -64,7 +65,7 @@ body {
   }
   
   .about-content {
-    color: rgba(253, 217, 16, 0.932);
+    color: rgba(235, 253, 72, 0.932);
     padding: 10px;
     margin: 50px;
     font-size: 30px;
@@ -107,7 +108,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #9d9fa0a9;
+  background-color: #4f4b47a9;
   color: aliceblue;
   z-index: 5;
   padding: 3px;
@@ -117,13 +118,15 @@ nav {
   height: 58px;
   margin-top: 10px;
   margin-left: 10px;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 #logo {
   font-size: 1.4rem;
   letter-spacing: 2px;
   margin: 0.5rem;
+  height: 100px;
+  width: 100px;
 }
 .nav-links {
   transition: all 1s linear;
@@ -613,3 +616,4 @@ footer p a {
 .red-heart{
   color: red;
 }
+
